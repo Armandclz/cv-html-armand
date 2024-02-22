@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Raleway:ital,wght@0,400;0,700;1,300&display=swap');
+
+html{
+    width: 1160px;
+    margin: auto;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.profile{
+    background-color: #782221;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile_picture{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px 10px white;
+
+}
+
+.profile_picture:hover{
+    cursor: zoom-in;
+}
+
+address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c1d27;
+    padding: 30px;
+    font-size: 1em;
+}
+
+main{
+    /* display: grid;
+    grid-template-columns: 1fr 2fr; */
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    background-color: #dbc2a4;
+    padding: 5px;
+}
+
+
+.infoexp:hover{
+    border-left: 10px solid #782221 ;
+}
+
+.profile_info{
+    background-color: #782221;
+    /* padding-right: 40px;
+    padding-left: 20px; */
+    width: 25%;
+}
+
+.description, .liste_langue, .liste_hobby{
+    color: white;
+}
+
+.description{
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.experiences{
+    padding: 40px;
+    border-right: solid black;
+    width: 60%;
+}
+
+.time{
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #782221;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+}
+
+#twitter_logo, #GitHub_logo, #linkedin_logo{
+    height: 50px;
+    width: 50px;
+}
+#twitter_logo:hover{
+    opacity: 40%;
+}
+#GitHub_logo:hover{
+    opacity: 40%;
+}
+#linkedin_logo:hover{
+    opacity: 40%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
