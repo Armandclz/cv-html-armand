@@ -10,27 +10,32 @@ h1, h2, h3, h4{
     font-family: 'Lato', sans-serif;
 }
 
-
-
-h1{
-    text-transform: uppercase;
-    font-weight: 300;
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #782221;
 }
-
+figcaption{
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+}
+h1{
+    color: white;
+    padding-bottom: 20px;
+}
 body{
     font-family: 'Raleway', sans-serif;
 }
-
 a{
     color: white;
     text-decoration: none;
     font-style: italic;
 }
-
 a:hover{
     text-decoration: underline;
 }
-
 .profile{
     background-color: #782221;
     color: white;
@@ -38,19 +43,18 @@ a:hover{
     text-align: center;
     padding: 50px;
 }
-
 .profile_picture{
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    box-shadow: 0 0 10px 10px white;
-
+    box-shadow: 0 0 40px 10px white;
 }
-
+.description{
+    margin: 15px;
+}
 .profile_picture:hover{
     cursor: zoom-in;
 }
-
 address{
     display: flex;
     justify-content: space-between;
@@ -59,50 +63,40 @@ address{
     padding: 30px;
     font-size: 1em;
 }
-
 main{
     /* display: grid;
     grid-template-columns: 1fr 2fr; */
     display: flex;
     justify-content: space-between;
 }
-
 h3{
     background-color: #dbc2a4;
     padding: 5px;
 }
-
-
 .infoexp:hover{
     border-left: 10px solid #782221 ;
 }
-
 .profile_info{
     background-color: #782221;
     /* padding-right: 40px;
     padding-left: 20px; */
     width: 25%;
 }
-
 .description, .liste_langue, .liste_hobby{
     color: white;
 }
-
 .description{
     text-align: justify;
     text-indent: 10%;
 }
-
 .experiences{
     padding: 40px;
     border-right: solid black;
     width: 60%;
 }
-
 .time{
     padding-bottom: 20px;
 }
-
 footer{
     background-color: #782221;
     color: white;
@@ -110,7 +104,6 @@ footer{
     font-size: 10px;
     padding: 20px;
 }
-
 #twitter_logo, #GitHub_logo, #linkedin_logo{
     height: 50px;
     width: 50px;
@@ -131,4 +124,3 @@ footer{
     gap: 20px;
     padding-bottom: 20px;
 }
-
